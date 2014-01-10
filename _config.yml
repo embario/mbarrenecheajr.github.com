@@ -1,6 +1,5 @@
 name: Mario Barrenechea
 markdown: redcarpet
 pygments: true
-
-
 ASSETS_PATH: /assets/
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
