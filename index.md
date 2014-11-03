@@ -1,46 +1,38 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Mario Barrenechea Jr.
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<section>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+	<div style="text-align:center;">
+		<img src="/assets/images/me2.jpg"/>
+		<img src="/assets/images/me1.jpg"/>
+		<img src="/assets/images/me3.jpg"/>
+	</div>
+	<hr>
 
-## Update Author Attributes
+	<p>I am a Ph.D. student studying computer science with my advisor <a href="http://cs.colorado.edu/~kena">Ken Anderson</a> at the <a href="http://colorado.edu">University of Colorado Boulder. </a></p>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+	<p>I'm interested in all-things software: engineering, design, theory, processes, politics - the list goes on. My research focus is on the human-centered aspects of building, analyzing, maintaining and deploying software systems in the context of disaster preparedness, response, and recovery.</p>
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+	<p>Some questions here:</p>
+	<ul style="padding-left:10px; list-style-type:none;">
+		<li><b>Workflow and Methodology:</b> How do software designers and developers organize themselves when engineering systems for disaster response? </li><br/>
+		<li><b>Tools and Techniques:</b> What tools are being used, and how do they enhance development workflows? What architectures and patterns are framed around the software project? To what extent are the tools used for development based on expertise or familiarity, rather than best practices?</li><br/>
+		<li><b>Disruption and Adoption:</b> What interfaces must be designed for members of the public, crisis analysts, and software engineers during disaster events to adopt these tools and methods to build more stable and reliable systems?</li>
+	</ul>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+	<p>My approach is to apply human-centered design techniques to developer tools and methods to increase productivity in designing, implementing, testing, and evolving these systems. I plan on continuing my study of software engineering by seeking computer science research opportunities in academic, government, and industrial settings.</p>
 
-    $ rm -rf _posts/core-samples
+</section>
 
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
+<!-- <section>
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section> -->
 
