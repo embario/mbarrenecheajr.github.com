@@ -3,3 +3,8 @@ markdown: redcarpet
 pygments: true
 ASSETS_PATH: /assets/
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
+author :
+  name : Mario Barrenechea
+  email : mbarrenecheajr@gmail.com
+  github : mbarrenecheajr
+  twitter : mbarrenecheajr
