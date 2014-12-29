@@ -14,6 +14,7 @@
 
         <!-- JS -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        
         <!--Javascript for Page-->
         {% if page.js %}
           <script src="{{ BASE_PATH }}/assets/javascripts/{{ page.js }}" type="text/javascript"></script>
@@ -23,7 +24,7 @@
 
         <div class="site">
           <div class="header">
-            <h3 id="tab-title" class="title" style="display:inline-block;"><a href="/">{{ site.name }}</a></h3>
+            <h3 id="tab-title" class="title" style="display:inline-block; margin-top:0px;"><a href="/">{{ site.name }}</a></h3>
             <a id="tab-research" class="extra tab" href="/research">Research</a>
             <a id="tab-professional" class="extra tab" href="/professional">Professional</a>
             <a id="tab-about-me" class="extra tab" href="/about_me">About Me</a>
@@ -32,14 +33,14 @@
           {{ content }}
 
           <div class="footer">
-            <div class="contact">
+            <div style="float:left;">
               <p>
                 Mario Barrenechea Jr.<br />
                 CS Ph.D. Student @ CUBoulder<br />
                 mario dot barrenechea at colorado dot edu
               </p>
             </div>
-            <div class="contact">
+            <div style="float:right;">
               <p>
                 <a href="https://github.com/mbarrenecheajr">
                   <img src="/assets/images/github.jpg"/></a>

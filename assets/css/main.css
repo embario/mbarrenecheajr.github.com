@@ -4,18 +4,20 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family:edmond;
+  src: url(/assets/css/fonts/Edmondsans-Regular.otf);
+}
+@font-face {
+  font-family:edmond;
+  src: url(/assets/css/fonts/Edmondsans-Bold.otf);
+  font-weight:bold;
 }
 
-html, body { height: 100%; }
-
 body {
-  background-color: #660000;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family:edmond;
+  background: url(/assets/images/background.png);
+  font-size:0.85em;
   text-align: center;
 }
 
@@ -54,12 +56,12 @@ ul.posts span {
 
 .site {
   background-color:#ededed;
-  box-shadow:0 0 1em #333333;
+  box-shadow:0 0 0.5em black;
   padding:20px;
   font-size: 115%;
   text-align: justify;
-  width: 45em;
-  margin: 3em auto 2em;
+  width: 50em;
+  margin: 10px auto;
   line-height: 1.5em;
 }
 
@@ -101,7 +103,7 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid darkgray;
   margin-top: 2em;
   overflow: hidden;
 }
@@ -123,6 +125,21 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+figure {
+  margin:0 auto; 
+  display:block; 
+  text-align:center;
+}
+
+figure img {
+  width:100%;
+}
+
+figcaption {
+  font-weight:bold;
+  font-size:12px;
 }
 
 /*****************************************************************************/

@@ -4,20 +4,30 @@ title: My Research
 js: research.js
 ---
 <section>
-	<h4>My research examines the design and development of large-scale software solutions for disaster preparedness, response, and recovery.</h4>
-  
-	<p> With the wake of pervasive information and communication technology (ICT) in the hands of the public citizenry, the information interface between formal emergency management and the public is widening, enabling opportunities to build ICT for large-scale situational awareness of disaster-related information. Volunteer technology communities (VTCs), like Ushahidi and OpenStreetMap, mobilize volunteer technologists - developers, analysts, and designers from all over the world - to participate in humanitarian efforts that aid thousands of disaster victims.</p>
+	<h4>My research examines the socio-technical issues in the design and development of software for disaster preparedness, response, and recovery.</h4>
 
-	<p>However, software in this domain, the way we build it, and the way we use it, are not ideal. Mobile and web apps need to be scalable or risk falling over from unexpected bugs; they need to be designed for the user or risk churn; but most of all, their actual use in the context of disaster preparedness, response, and recovery needs to be well understood, or it risks not being used at all. In a decentralized work environment, VTCs fall victim to global software engineering issues, like regional, temporal, and cultural differences and collaboration issues in round-the-clock development. The fragmentation of skillsets also makes it hard to coordinate tasks.</p>
+  <figure>
+    <img src="/assets/images/collaboration.jpg"/>
+  </figure>
 
-	<p>My goal is twofold: first, to ethnographically examine the dynamics of VTC organizations, observing the toolsets that they use in order to get the job done; second, based on the collected data, to determine best practice engineering tools and techniques that increase productivity and efficiency, as well as to bridge real-world disaster scenarios with these insights to make arguments for situated use. New observations and insights can help realize best practices for how large-scale, decentralized software development in disasters can get done.</p>
+	<p> With the wake of pervasive information and communication technology (ICT) in the hands of the public citizenry, the production and dissemination of safety and time-critical information - in the past decade observed online in a critical mass - demonstrate how a large and collectively-intelligent force can impact the response and recovery efforts during a natural disaster event.</p>
+
+  <p>Contrary to established notions about the role of the public in disasters, the work conducted and performed on-the-ground by disaster victims is a resource, not a liability. Members of the public coordinate with each other to pull victims out of the debris, drive the injured to shelters, perform impromptu rescue missions, provide supplies, and self-organize to perform these tasks efficiently. In the 2001 World Trade Center attacks, people were ferried away from the fringe zone by spontaneous and coordinated work by those who knew how to operate boating vessels. During the 2010 Haiti earthquake, people converged onto the disaster scene to help find missing people, establish shelters for temporary relief, and other important relief tasks. These behaviors aren't new; that we are now seeing them online in software development contexts for humanitarian efforts, however, has burgeoned a wave of large-scale participation not seen before.</p>
+
+  <p>This unprecedented wave of digital volunteerism has demonstrated how the crowd can conduct and perform a diverse range of tasks that help solve problems during disaster events. A plethora of virtual organizations known as "volunteer-technical communities" (VTCs), such as <a href="http://www.ushahidi.com">Ushahidi</a>, <a href="http://www.openstreetmap.org">OpenStreetMap</a>, and the <a href="http://digitalhumanitarians.com">Digital Humanitarian Network</a>, have mobilized this converging force to facilitate the flow of critical information in disaster events. They build software and use it to <a href="https://crowdmap.com/welcome">display important sites on a Ushahidi map</a>, or to <a href="http://tasks.hotosm.org/"> coordinate tasks for mapping specific regions in an affected area</a>, for example. In a software engineering research context, what we have seen with this digital volunteerism are parallels to the open-source software development world that is well-understood. However, we are left with more questions to answer, such as: how do people self-organize to build software for disaster response? What development practices are shared among them? What tools and techniques are being used in development workflows? Are they similar to open-source development workflows? It is with this online phenomena that we must understand how it mobilizes developers to build software that supports the public during disaster events.</p>
+
+	<p>However, software in this domain, the way we build it, and the way we use it, are not ideal. Applications need to be developed properly or risk falling over from unexpected bugs; they need to be scalable or risk collapsing under convergence; they need to be designed for the user or risk churn; but most of all, their actual use in the context of disaster preparedness, response, and recovery needs to be well understood, or it risks not being used at all. In a decentralized work environment, VTCs fall victim to global software engineering issues, like regional, temporal, and cultural differences and collaboration issues in round-the-clock development. The fragmentation of skillsets also makes it hard to coordinate tasks.</p>
+
+	<p>It is clear that both the underpinnings of software development via VTCs, as well as the techniques used to build software for widescale use, are challenges for software engineering research. Based on these challenges, my research objectives are: first, to use a research-through-design approach to develop techniques for building systems that mobilize digital volunteers in performing important societal problems in disaster. Secondly, I plan to study the dynamics of VTC organizations, observing the toolsets that they use to build systems. Based on the collected quantitative and qualitative data, we can determine best practice engineering tools and techniques that increase productivity and efficiency in VTCs, as well as to bridge real-world disaster scenarios with these insights to make arguments for situated use of software. New observations and insights in both these areas can help realize best practices for large-scale, decentralized software development and use in disasters.</p>
 	<hr/><br/>
 
 	<h2>EmergencyPetMatcher</h2>
-	<p>EmergencyPetMatcher (EPM) is a crowd-based web application that allows pet lovers and advocates at large to report, match, and verify lost and found pets as a collaborative effort during and after disaster events. EPM allows end-users to follow other users and coordinate in matching pets with their owners. The pet matches that are proposed in the system can be voted "up" or "down", and when a threshold is triggered, EPM will send messages to both parties encouraging human intervention to determine the success of the match. The application is not yet deployed but will be soon and can be accessed <a href="http://www.emergencypetmatcher.com">here</a>.</p>
+	<p>EmergencyPetMatcher (EPM) is a crowd-based web application that allows pet advocates and enthusiasts at large to report, match, and verify lost and found pets as a collaborative effort during and after disaster events. EPM allows end-users to follow other users and coordinate in matching pets with their owners. The pet matches that are proposed in the system can be voted "up" or "down", and when a threshold is triggered, EPM will send messages to both parties encouraging human intervention to determine the success of the match. The application is not yet deployed but will be soon and can be accessed <a href="http://www.emergencypetmatcher.com">here</a>.</p>
 
-	<img style="width:95%; display:block; margin:0 auto;" src="/assets/images/epm.png"/>
-  <p style="text-align:center; font-weight:bold;">The EPM Home Page.</p>
+  <figure>
+    <img src="/assets/images/epm.png"/>
+    <figcaption>The EPM Home Page.</figcaption>
+  </figure>
 
   <p>EPM was a research effort for almost two years involving designers, developers, and researchers in studying online behaviors of pet reunion during mass displacement events. My colleague Joanne White recently published her work at CSCW on her ethnographic work examining an online pet community of pet advocates who self-organized to reunite pets with their owners on a Facebook page following the 2012 Hurricane Sandy event. She discovered that these digital volunteers mobilized to create an improvised case management system of photo albums and conversation threads to perform cross-validation, reporting, and matching work, the results of which were instrumental in reuniting many pets with their owners.</p>
 
@@ -28,13 +38,17 @@ js: research.js
 
   <p>The Project EPIC lab has been working on these challenges since 2009. The first system built - called EPIC Collect and built by my colleague Aaron Schram - was targeted for collection of millions of tweets over hundreds of disaster events. Over its continued and heavy use, more recent work by Schram and Anderson have shown that migration to horizontally-scaling technologies such as NoSQL have improved the collection infrastructure by maintaining a 99.999% uptime since 2012. You can read their work from the Project EPIC Website <a href="http://epic.cs.colorado.edu">here</a>.</p>
 
-  <img style="width:95%; display:block; margin:0 auto;" src="/assets/images/epic-analyze.png"/>
-  <p style="text-align:center; font-weight:bold;">Analyzing Tweets from the 2013 Japan Earthquake Dataset.</p>
+  <figure>
+    <img src="/assets/images/epic-analyze.png"/>
+    <figcaption>Analyzing Tweets from the 2013 Japan Earthquake Dataset.</figcaption>
+  </figure>
 
   <p>Collection is not enough to solve analytical challenges for the scale of data needed for crisis informatics research. Since 2013, I have led a software engineering team comprised of graduate student developers and researchers in building an analytics infrastructure to respond to the research challenges in providing interactive use of data at this scale. EPIC Analyze provides an analytics platform to provision the browsing, filtering, and visualization capabilities for examining large-scale Twitter datasets. Preliminary results from our work can be found in the "Analysis of Social Media Data" paper.</p>
 
-  <img style="width:95%; display:block; margin:0 auto;" src="/assets/images/epic-analyze-architecture.jpg"/>
-  <p style="text-align:center; font-weight:bold;">EPIC Analyze Architecture.</p>
+  <figure>
+    <img src="/assets/images/epic-analyze-architecture.jpg"/>
+    <figcaption>EPIC Analyze Architecture.</figcaption>
+  </figure>
 
 
 </section>
