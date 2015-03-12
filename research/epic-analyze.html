@@ -1,0 +1,22 @@
+---
+layout: default
+title: EPIC Analyze
+js: research.js
+---
+
+ <h2> EPIC Analyze </h2>
+  <p>In crisis informatics research, efforts to understand the disaster-abetted social and online behaviors of the mass public is difficult. Data does not prove its value by content but by volume; thousands to millions of information pieces are shared across social media, including calls for help, volunteer opportunities, weather information, evacuation route notices, road closure warnings, and so on. These data are also ephemeral; software engineering efforts to collect, store, and then provision them for analysis face various challenges, such as responsiveness for interactive analytics, robustness to faults and crashes, and scale. Building and using analytical tools to handle the large information load is a research challenge, but then to support unique workflows of analysis that are unique to analysts who study these data further increases complexity of these tools.</p>
+
+  <p>The Project EPIC lab has been working on these challenges since 2009. The first system built - called EPIC Collect and built by my colleague Aaron Schram - was targeted for collection of millions of tweets over hundreds of disaster events. Over its continued and heavy use, more recent work by Schram and Anderson have shown that migration to horizontally-scaling technologies such as NoSQL have improved the collection infrastructure by maintaining a 99.999% uptime since 2012. You can read their work from the Project EPIC Website <a href="http://epic.cs.colorado.edu">here</a>.</p>
+
+  <figure>
+    <img src="/assets/images/epic-analyze.jpg" style="width:600px;"/>
+    <figcaption>Analyzing Tweets from the 2013 Japan Earthquake Dataset.</figcaption>
+  </figure>
+
+  <p>Collection is not enough to solve analytical challenges for the scale of data needed for crisis informatics research. Since 2013, I have led a software engineering team comprised of graduate student developers and researchers in building an analytics infrastructure to respond to the research challenges in providing interactive use of data at this scale. EPIC Analyze provides an analytics platform to provision the browsing, filtering, and visualization capabilities for examining large-scale Twitter datasets. Preliminary results from our work can be found in the "Analysis of Social Media Data" paper.</p>
+
+  <figure>
+    <img src="/assets/images/epic-analyze-architecture.jpg" style="width:500px;"/>
+    <figcaption>EPIC Analyze Architecture.</figcaption>
+  </figure>
