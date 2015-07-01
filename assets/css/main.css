@@ -48,6 +48,15 @@ ul.posts span {
   font-size: 80%;
 }
 
+ul#papers {
+  list-style-type:decimal; 
+  padding-left:20px;
+}
+
+#papers li {
+  margin-bottom:10px;
+}
+
 /*****************************************************************************/
 /*
 /* Site
