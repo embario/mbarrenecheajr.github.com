@@ -57,6 +57,16 @@ ul#papers {
   margin-bottom:10px;
 }
 
+#seminar-images img {
+  height:150px;
+
+}
+
+#seminar-table th {
+  margin:10px;
+  display:inline-block;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -69,7 +79,7 @@ ul#papers {
   padding:20px;
   font-size: 115%;
   text-align: justify;
-  width: 50em;
+  width: 80vw;
   margin: 10px auto;
   line-height: 1.5em;
 }
